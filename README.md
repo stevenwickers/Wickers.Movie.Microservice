@@ -11,3 +11,6 @@ This is a test .NET Core API for testing UI like React and Redux
 		<li>Local SQL Server for testing Dapper</li>
 	</ul>
 </p>
+<p>
+https://github.com/stevenwickers/Wickers.Movie.Microservice/blob/main/Wickers.Movie.API/Resources/Movie_API_ScreenShot.png
+</p>
