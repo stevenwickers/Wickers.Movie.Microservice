@@ -5,17 +5,17 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D7DC8C99-1F1C-4C4E-8B4A-E800BCF37058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wickers.Movie.API", "Wickers.Movie.API\Wickers.Movie.API.csproj", "{BBD02397-6F5C-4E33-AFCD-8C6A1D60D8EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wickers.Movie.API", "Wickers.Movie.API\Wickers.Movie.API.csproj", "{BBD02397-6F5C-4E33-AFCD-8C6A1D60D8EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{F83907AF-C4FF-43C8-AF4A-27413E4F93E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wickers.Movie.Business", "Wickers.Movie.Business\Wickers.Movie.Business.csproj", "{6B1D0610-2721-4D10-BE4A-7594FA5E7BD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wickers.Movie.Business", "Wickers.Movie.Business\Wickers.Movie.Business.csproj", "{6B1D0610-2721-4D10-BE4A-7594FA5E7BD0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{133BAF27-025E-465D-900D-B7738F006744}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{5D8A7F98-FB33-4412-AEE8-121FDC65E41E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wickers.Movie.Data", "Wickers.Movie.Data\Wickers.Movie.Data.csproj", "{190F1DF0-1D4F-4A28-BD9E-2F13D409C279}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wickers.Movie.Data", "Wickers.Movie.Data\Wickers.Movie.Data.csproj", "{190F1DF0-1D4F-4A28-BD9E-2F13D409C279}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wickers.Movie.Model", "Wickers.Movie.Model\Wickers.Movie.Model.csproj", "{76E0DB9F-20C8-42FF-BBDC-FDFAD8C6AC8D}"
 EndProject

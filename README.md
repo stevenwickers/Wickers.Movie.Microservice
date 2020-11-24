@@ -10,10 +10,8 @@ This is a test .NET Core API for testing UI like React and Redux
 	This project uses the following:
 	<ul>
 		<li>Dependency Injection</li>
+		<li>Swagger</li>
 		<li>Dapper - lightweight ORM</li>
 		<li>Local SQL Server for testing Dapper</li>
 	</ul>
-</p>
-<p align="center">
-  <img src="https://github.com/stevenwickers/Wickers.Movie.Microservice/blob/main/Wickers.Movie.API/Resources/Movie_API_ScreenShot.png" />
 </p>
