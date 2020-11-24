@@ -44,7 +44,7 @@ namespace Wickers.Movie.Business.Services
         {
             List<ParameterModel> _params = CreateMovieParameters(Model, true);
 
-            var id = await _dataService.InsertUpdateData($"{_sprocPrefix}_Insert", _params);
+            var id = await _dataService.InsertUpdateData($"{_sprocPrefix}_Update", _params);
             Model.MovieID = id;
             return Model;
 
