@@ -41,6 +41,7 @@ namespace Wickers.Movie.API
             //Services
             services.AddSingleton<ISQLServices>(new SQLServices(connectionString, appSettings.SqlTimeout));
             services.AddSingleton<IServices<MovieModel>, MovieServices>();
+            services.AddSingleton<IServices<TVModel>, TVServices>();
 
 
             services.AddSwaggerGen(c =>

@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Wickers.Movie.Data\Wickers.Movie.Data.csproj" />
-    <ProjectReference Include="..\Wickers.Movie.Model\Wickers.Movie.Model.csproj" />
+    <ProjectReference Include="..\Wickers.Movie.Model\Wickers.Movie.Models.csproj" />
   </ItemGroup>
 
 </Project>
