@@ -250,7 +250,10 @@ UpgradeLog*.htm
 ServiceFabricBackup/
 *.rptproj.bak
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b4871e14aefb024a9083fc515a7069857557a353
 # Business Intelligence projects
 *.rdl.data
 *.bim.layout
