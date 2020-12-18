@@ -37,7 +37,6 @@ namespace Wickers.Movie.Business.Services
             var id = await _dataService.InsertUpdateData($"{_sprocPrefix}_Insert", _params);
             Model.MovieID = id;
             return Model;
-
         }
 
         public async Task<MovieModel> Update(MovieModel Model)
@@ -47,7 +46,6 @@ namespace Wickers.Movie.Business.Services
             var id = await _dataService.InsertUpdateData($"{_sprocPrefix}_Update", _params);
             Model.MovieID = id;
             return Model;
-
         }
        
         private List<ParameterModel> CreateMovieParameters(MovieModel Model, bool IsUpdating)
