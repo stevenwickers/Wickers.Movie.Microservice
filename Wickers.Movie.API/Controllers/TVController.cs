@@ -32,20 +32,20 @@ namespace Wickers.Movie.API.Controllers
 
         // Select TV Show by ID
 
-        //[HttpGet]
-        //[Route("{ID}")]
-        //public async Task<IActionResult> GetShowsID(int ID)
-        //{
-        //    try
-        //    {
-        //        var results = await _services.SelectByID(ID);
-        //        return Ok(results);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return base.InteralServer(e);
-        //    }
-        //}
+        [HttpGet]
+        [Route("{ID}")]
+        public async Task<IActionResult> GetShowsID(int ID)
+        {
+            try
+            {
+                var results = await _services.SelectByID(ID);
+                return Ok(results);
+            }
+            catch (Exception e)
+            {
+                return base.InteralServer(e);
+            }
+        }
 
         // Insert TV Show
 
